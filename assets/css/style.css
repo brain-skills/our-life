@@ -38,7 +38,7 @@ body {
     border: 1px solid #000;
     box-sizing: border-box;
     float: left;
-    margin: 3px 3px;
+    margin: 1px;
 }
 
 .header-cell, .row-number {
@@ -46,12 +46,11 @@ body {
     box-sizing: border-box;
     float: left;
     text-align: center;
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 10px;
     color: #000;
 }
-.header-cell {width: calc(100% / 53); margin: 2px 0 6px 0; text-align: center;}
-.row-number {width: 14px; margin: 0 2.7px;}
+.header-cell {width: calc(100% / 53); margin: 2px 0; text-align: center;}
+.row-number {width: 14px; margin: 0 2px;}
 
 .header-row {
     clear: both;
