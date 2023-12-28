@@ -1,0 +1,72 @@
+body {
+    height: 100%;
+    margin: 20px;
+}
+
+.horizontal{
+    margin: 0 0 10px 60px;
+}
+
+.vertical{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    float: left;
+    margin-top: 20px;
+    left: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.table-container{
+    position: relative;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+    width: 95%;
+    left: 5%;
+}
+
+.clearfix {
+    display: flex;
+    width: 100%;
+}
+
+.square {
+    flex: 1;
+    height: 14px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    float: left;
+    margin: 3px 3px;
+}
+
+.header-cell, .row-number {
+    height: 14px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}
+.header-cell {width: calc(100% / 53); margin: 2px 0 6px 0; text-align: center;}
+.row-number {width: 14px; margin: 0 2.7px;}
+
+.header-row {
+    clear: both;
+}
+
+.oracul{
+    position: relative;
+}
+
+.oracul input{
+    width: 100%;
+}
+
+.highlight {
+    background-color: #f00;
+    color: #f00;
+    border-color: #f00;
+}
